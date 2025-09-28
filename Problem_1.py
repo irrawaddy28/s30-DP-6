@@ -22,6 +22,7 @@ Solution:
 Start with 1 as the first ugly number and use a min-heap to always get the next smallest. Multiply the current ugly number by 2, 3, and 5 and add new numbers to the heap. Use a set to skip duplicates and continue until the nth ugly number is reached.
 https://youtu.be/fzGieY0mH2I?t=432 (generation of ugly nos. and the problems associated with the generation)
 https://youtu.be/fzGieY0mH2I?t=582 (why set and heap? set fixes the duplicate problem, heap fixes the ordering problem)
+https://youtu.be/1pj2a5bmziY?t=166  (explanation from Neet Code, until 5:36)
 Time: O(N log M), Space: O(M), M=size of heap, N=no. of ugly nos. generated
 
 2. Array traversal using three pointers
